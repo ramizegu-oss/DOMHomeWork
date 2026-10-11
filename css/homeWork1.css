@@ -1,0 +1,7 @@
+body{
+    background-color: white;
+        padding: 20pc;
+    display: flex;
+    gap: 46px;
+        flex-direction: column;
+}
