@@ -26,11 +26,3 @@ buttonAdd.addEventListener("click", function () {
     ulList.append(li);
     input.value = ""
 });
-
-
-deleteBtn.forEach(element => {
-    element.addEventListener("click",function(){
-    let parentLi = element.parentElement;
-    parentLi.remove();
-})
-});
